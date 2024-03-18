@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        //task1
         int flags = 150;
         System.out.println("Значение переменной flags с типом int равно " + flags);
 
@@ -18,6 +19,7 @@ public class Main {
         double liters = 67.17800976;
         System.out.println("Значение переменной liters с типом double равно " + liters);
 
+        //task2
         double a = 27.12;
         System.out.println(a);
         long b = 987678965549L;
@@ -33,6 +35,7 @@ public class Main {
         byte g = 67;
         System.out.println(g);
 
+        //task3
         byte pupilsNumberOneClass = 23;
         byte pupilsNumberTwoClass = 27;
         byte pupilsNumberThreeClass = 30;
@@ -41,6 +44,7 @@ public class Main {
         int paperForPupils = paperNumber / pupilsNumber;
         System.out.println("На каждого ученика расчитано " + paperForPupils + " листов бумаги");
 
+        //task4
         int performanceBottleInOneMinute = 16/2;
         int performanceBottleInTwentyMinutes = performanceBottleInOneMinute * 20;
         System.out.println("За 20 минут машина произвела " + performanceBottleInTwentyMinutes + " штук бутылок");
@@ -50,10 +54,11 @@ public class Main {
         int conversionToMinutesTwo = conversionToMinutesOne * 3;
         int performanceBottleInThreeDays = performanceBottleInOneMinute * conversionToMinutesTwo;
         System.out.println("За 3 дня машина произвела " + performanceBottleInThreeDays + " штук бутылок");
-        int conversionToMinutesThree = performanceBottleInDay * 30; //если в месяце 30 дней
+        int conversionToMinutesThree = conversionToMinutesOne * 29;//количество минут в 29 днях(29-ср. количество дней в месяце в 2024г)
         long performanceBottlesInMonth = performanceBottleInOneMinute * conversionToMinutesThree;
         System.out.println("За месяц машина произвела " + performanceBottlesInMonth + " штук бутылок");
 
+        //task5
         int allPaintNumber = 120;
         int paintForOneClass = 2 + 4;
         int classNumber = allPaintNumber / paintForOneClass;
@@ -61,6 +66,7 @@ public class Main {
         int brownPaintNumber = 4 * classNumber;
         System.out.println("В школе, где " + classNumber + " классов, нужно " + whitePaintNumber + " банок белой краски и " + brownPaintNumber + " банок коричневой краски");
 
+        //task6
         int bananasWeight = 80 * 5;
         int milkWeight = 105 * 2;
         int iceCreamWeight = 2 * 100;
@@ -69,6 +75,7 @@ public class Main {
         double sportBreakfastWeightInKilograms = sportBreakfastWeight / 1000;
         System.out.println("Спортзавтрак весит " + sportBreakfastWeightInKilograms + " кг");
 
+        //task7
         int conversion = 7 * 1000;
         int dayNumberOne = conversion / 250;
         System.out.println("Если спортсмен будет терять ежедневно по 250 грамм веса, то ему понадобится " + dayNumberOne + " дней, чтобы подготовиться к соревнованиям");
@@ -76,6 +83,7 @@ public class Main {
         System.out.println("Если спортсмен будет терять ежедневно по 500 грамм веса, то ему понадобится " + dayNumberTwo + " дней, чтобы подготовиться к соревнованиям");
         System.out.println("В среднем спортсмену понадобится " + (dayNumberOne + dayNumberTwo) / 2 + " день, чтобы подготовиться к соревнованиям");
 
+        //task8
         int salaryInMonthMasha = 67760;
         int salaryIncreaseMasha = (salaryInMonthMasha * 10) / 100;
         int newSalaryInMonthMasha = salaryInMonthMasha + salaryIncreaseMasha;
